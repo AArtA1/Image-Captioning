@@ -69,3 +69,15 @@ The training process, including loss function, optimizer, hyperparameters, and e
 
 
 ## 4. References
+
+<a id="1">[1]</a> Liu, W., Chen, S., Guo, L., Zhu, X., & Liu, J. (2021). CPTR:
+Full transformer network for image captioning. arXiv preprint
+[arXiv:2101.10804](https://arxiv.org/abs/2101.10804).
+
+<a id="2">[2]</a> Lin, T. Y., Maire, M., Belongie, S., Hays, J., Perona, P.,
+Ramanan, D., ... & Zitnick, C. L. (2014, September). Microsoft coco: Common
+objects in context. In European conference on computer vision (pp. 740-755).
+Springer, Cham.
+
+<a id="3">[3]</a> A. Vaswani et al., 'Attention is all you need', Advances in neural
+information processing systems, vol. 30, 2017.
