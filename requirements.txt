@@ -1,0 +1,10 @@
+torch 
+torchvision 
+torchaudio
+datasets
+transformers
+tqdm
+neptune
+statistics
+typing
+nltk

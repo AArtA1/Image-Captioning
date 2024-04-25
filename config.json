@@ -1,0 +1,36 @@
+{
+    "hyperparams": {
+        "image_encoder": {
+            "encode_size": 14,
+            "embed_dim": 512
+        },
+        "transformer": {
+            "tgt_vocab_size":30000,
+            "d_model":512,
+            "num_heads":8,
+            "num_layers":6,
+            "dim_feedforward":2048,
+            "max_seq_length":52,
+            "dropout":0.1
+        },
+        "dataset_path" : "dataset/",
+        "img_size":[256,256]
+    },
+    "pathes": {
+        "train": "dataset/train",
+        "test": "dataset/test",
+        "val": "dataset/val",
+        "tokenizer":"tokenizer/tokenizer.json"
+    },
+    "dataloader_params": {
+        "batch_size": 64
+    },
+    "train_params": {
+        "epochs": 100
+    },
+    "optim_params": {
+        "lr":0.0001,
+        "betas":[0.9, 0.98], 
+        "eps":1e-9
+    },
+}
