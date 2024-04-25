@@ -2,7 +2,7 @@
 
 - [1. Introduction](#1-introduction)
 - [2. Run](#2-run)
-  - [2.1. **IMPORTANT NOTE**](#21-important-note)
+  - [2.1. **Notion**](#21-important-note)
   - [2.2. Requirements](#22-requirements)
   - [2.3. Create Dataset](#23-create-dataset)
   - [2.4. Create and train Custom Tokenizer](#23-create-dataset)
@@ -19,7 +19,7 @@ This document provides a comprehensive guide on running the code, delves into th
 
 ## 2. Run
 
-### 2.1. IMPORTANT NOTE
+### 2.1. Notion
 
 An important note regarding the implementation of the transformer attention mechanism is provided.  The main purpose of this project is to explore all state-of-the-art techniques, make own pipeline which consists from custom_tokenizer, custom attention implementation and  Please refer to this section before proceeding.
 
@@ -38,7 +38,20 @@ Huggingface provides convenient instruments for training and creating custom tok
 ### 2.5. Train the model
 
 Instructions for training the model, along with the required arguments, are outlined in this section. The training process is tracked using Neptune for experiment management.
-To download datase and run it through the pipeline run the docker by calling the commands further:
+To download datase and run it through the pipeline run the docker by calling the commands further
+To create image:
+```bash
+docker build -t your_image_name .
+```
+
+To run your image:
+
+```bash
+docker run -d your_image_name
+```
+
+
+
 
 ## 3. The Model
 
